@@ -1,0 +1,187 @@
+[
+    {
+        "text": "Movies",
+        "pre": "",
+        "post": " ",
+        "tags": [
+            "Noun",
+            "Plural"
+        ],
+        "normal": "movies",
+        "index": [
+            0,
+            0
+        ],
+        "id": "movies|001000004",
+        "chunk": "Noun",
+        "dirty": true
+    },
+    {
+        "text": "with",
+        "pre": "",
+        "post": " ",
+        "tags": [
+            "Preposition"
+        ],
+        "normal": "with",
+        "index": [
+            0,
+            1
+        ],
+        "id": "with|00200001Z",
+        "dirty": true,
+        "chunk": "Pivot"
+    },
+    {
+        "text": "Niladri",
+        "pre": "",
+        "post": " ",
+        "tags": [
+            "ProperNoun",
+            "Noun"
+        ],
+        "normal": "niladri",
+        "index": [
+            0,
+            2
+        ],
+        "id": "niladri|00300002A",
+        "chunk": "Noun"
+    },
+    {
+        "text": "Shekhar",
+        "pre": "",
+        "post": " ",
+        "tags": [
+            "ProperNoun",
+            "Noun",
+            "Singular",
+            "Person"
+        ],
+        "normal": "shekhar",
+        "index": [
+            0,
+            3
+        ],
+        "id": "shekhar|00400003G",
+        "chunk": "Noun",
+        "dirty": true
+    },
+    {
+        "text": "Chatterjee",
+        "pre": "",
+        "post": ", ",
+        "tags": [
+            "Noun",
+            "Singular",
+            "Person",
+            "ProperNoun",
+            "LastName"
+        ],
+        "normal": "chatterjee",
+        "index": [
+            0,
+            4
+        ],
+        "id": "chatterjee|00500004A",
+        "chunk": "Noun",
+        "dirty": true
+    },
+    {
+        "text": "Morgan",
+        "pre": "",
+        "post": " ",
+        "tags": [
+            "Noun",
+            "Singular",
+            "Person",
+            "ProperNoun",
+            "FirstName"
+        ],
+        "normal": "morgan",
+        "index": [
+            0,
+            5
+        ],
+        "id": "morgan|00600005R",
+        "chunk": "Noun",
+        "dirty": true
+    },
+    {
+        "text": "Freeman",
+        "pre": "",
+        "post": " ",
+        "tags": [
+            "ProperNoun",
+            "Noun",
+            "Singular",
+            "Person",
+            "LastName"
+        ],
+        "normal": "freeman",
+        "index": [
+            0,
+            6
+        ],
+        "id": "freeman|00700006U",
+        "chunk": "Noun",
+        "dirty": true
+    },
+    {
+        "text": "and",
+        "pre": "",
+        "post": " ",
+        "tags": [
+            "Conjunction"
+        ],
+        "normal": "and",
+        "index": [
+            0,
+            7
+        ],
+        "id": "and|008000073",
+        "dirty": true,
+        "chunk": "Noun"
+    },
+    {
+        "text": "Johnny",
+        "pre": "",
+        "post": " ",
+        "tags": [
+            "Noun",
+            "Singular",
+            "Person",
+            "FirstName",
+            "ProperNoun",
+            "MaleName"
+        ],
+        "normal": "johnny",
+        "index": [
+            0,
+            8
+        ],
+        "id": "johnny|00900008I",
+        "chunk": "Noun",
+        "dirty": true
+    },
+    {
+        "text": "Depp",
+        "pre": "",
+        "post": "",
+        "tags": [
+            "ProperNoun",
+            "Noun",
+            "Singular",
+            "Person",
+            "LastName"
+        ],
+        "normal": "depp",
+        "index": [
+            0,
+            9
+        ],
+        "id": "depp|00A00009K",
+        "chunk": "Noun",
+        "dirty": true
+    }
+]

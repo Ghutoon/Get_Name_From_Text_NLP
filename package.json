@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "browserify-fs": "^1.0.0",
+    "cloudmersive-nlp-api-client": "^2.1.1",
+    "compromise": "^14.8.1",
+    "compromise-speech": "^0.1.0"
+  },
+  "name": "get_name_from_text_nlp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghutoon/Get_Name_From_Text_NLP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghutoon/Get_Name_From_Text_NLP/issues"
+  },
+  "homepage": "https://github.com/Ghutoon/Get_Name_From_Text_NLP#readme",
+  "description": ""
+}
