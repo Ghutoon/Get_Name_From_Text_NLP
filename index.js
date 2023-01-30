@@ -97,6 +97,7 @@ async function tokenize_and_retrieve(input) {
     return query_result;
 }
 exp.get("/verify", (req, res) => {
+    console.log(req.body);
     if (req.query['hub.verify_token'] == "niladri")
         res.send(req.query['hub.challenge'])
     else
