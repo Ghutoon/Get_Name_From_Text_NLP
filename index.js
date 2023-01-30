@@ -106,10 +106,10 @@ exp.get("/verify", (req, res) => {
     else
         res.sendStatus(403);
 });
-exp.post("/verify", async (req, res) => {
-    let input = req.body;
+exp.post("/", async (req, res) => {
+    //let input = req.body;
     //let input = "Movies with Arnold Schwarzenegger, Sylvester Stallone ";
-    //let input = req.body.entry[0].changes[0].value["messages"][0]["text"]["body"];
+    let input = req.body.entry[0].changes[0].value["messages"][0]["text"]["body"];
     console.log(input);
     query_result = await tokenize_and_retrieve(input);
     query_result.data["results"].forEach(element => {
