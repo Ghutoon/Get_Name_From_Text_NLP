@@ -96,13 +96,13 @@ async function tokenize_and_retrieve(input) {
     }
     return query_result;
 }
-exp.get("/", (req, res) => {
+exp.get("/verify", (req, res) => {
     if (req.query['hub.verify_token'] == "niladri")
         res.send(req.query['hub.challenge'])
     else
         res.sendStatus(403);
 });
-exp.post("/", async (req, res) => {
+exp.post("/verify", async (req, res) => {
     //let input = "Movies with Arnold Schwarzenegger, Sylvester Stallone ";
     let input = req.body.entry[0].changes[0].value["messages"][0]["text"]["body"];
     query_result = await tokenize_and_retrieve(input);
